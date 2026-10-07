@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building application..."
+      - echo "Build successful!"
+      - ls -la
+
+artifacts:
+  files:
+    - index.html
